@@ -1,0 +1,1365 @@
+    /* Controle Geral */
+    :root {
+        --primary-color: #fdf7e6;
+        --secondary-color: #2e2e2e;
+        --tertiary-color: #f3f3f3;
+        --quaternary-color: #d79006;
+        --quinary-color: black;
+        --senary-color: #b2a574;
+        --septenary-color: #514632;
+        --octonary-color: #6a6a6a;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    body {
+        font-family: 'Pridi', serif !important;    
+        background-color: var(--primary-color) !important;
+    }
+
+
+    /* Controle Repartições */
+    h1 {
+        font-size: 2.4rem;   
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+    }
+
+    section {
+        font-size: 1.5rem; /*---Esquivale a 15px ---*/
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        align-content: space-between;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    header img {
+        width: 350px;
+    }
+
+    .pre-header h4 {
+        background-color: var(--tertiary-color);
+        padding: 0.5rem;
+        text-align: right;
+    }
+
+    .pre-header a {
+        text-decoration: none;
+        color: darkgray;
+        font-weight: 500;
+    }
+
+    header img {
+        padding: 1rem;
+    }
+
+    header h1 {
+        width: 20%;
+        font-weight: 500;
+        color: var(--secondary-color);
+    }
+
+     /* Menu Principal */
+     #main-menu {
+        display: block;
+        background-color: var(--secondary-color);
+    }
+
+    #main-menu ul {
+        display: flex;
+        margin: 0 !important;
+        padding: 0;
+    }
+
+    #main-menu ul li {
+        width: 8% !important;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    #main-menu ul li:hover {
+        background-color: var(--quaternary-color) !important;
+    }
+
+    /* Logomarca */
+    #mobile {
+        display: none;
+    }
+
+    /* Menu Dropdown */
+    #bt_menu {
+        display: none;
+    }
+
+    #dropdown {
+        display: none;
+        text-decoration: none;
+        color: var(--tertiary-color);
+        font-weight: 400;
+        font-size: 17px;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .dropdown-item {
+        display: block;
+        
+    }
+
+    .sub-dropdown-color li {
+        background-color: #b2a574 !important;
+    }
+
+    .sub-dropdown-color li:hover {
+        background-color: #2e2e2e !important;
+    }
+
+    .destaque {
+        font-weight: normal;
+    }
+
+    .margin-topico {
+        margin-top: 8rem;
+        margin-bottom: 3rem;
+    }
+
+    .referencias {
+        text-decoration: none;
+        color: #625215;
+    }
+
+    .referencias:hover {
+        color: #757cd1 !important;
+    }
+
+    .esconde-mobile {
+        display: flex;
+    }
+
+    .mostra-mobile {
+        display: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%; 
+        font-size: 1.7rem; 
+        text-align: center;
+        background-color: #f3f3f3;
+        margin: 5rem 0;
+      }
+    
+      th, td {
+        border: 1px solid black;
+        padding: 8px;
+        border-width: initial !important;
+        border-style: double !important;
+        vertical-align: middle;
+      }
+
+      td {
+        text-align: justify;
+      }
+
+      .td-center td {
+        text-align:center
+      }
+
+      p {
+        word-wrap: break-word;
+      }
+
+      blockquote {
+        font-size: 1.7rem; 
+        text-align: justify;
+        margin: 5rem 0 5rem 30% !important;
+        line-height: 2rem;
+        font-weight: 300;
+        background-color: #e4e0d3;
+        padding: 1rem;
+      }
+
+      .cabecalho {
+        background-color: #b2a574;
+      }
+
+    /* Banner Principal */
+    .banner {
+        background-image: url(../img/Fotos/baby-luna-01.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 250px 0px;
+        background-position: center center;
+    }
+
+    .banner .caption {
+        background-color: rgba(250,250,250,0.9);
+        padding: 30px;
+        max-width: 450px;
+    }
+    .banner .caption h2 {
+        margin-top: 0px;
+        margin-bottom: 15px;
+        font-size: 24px;
+        font-weight: 700;
+        color: #1e1e1e;
+    }
+    .banner .caption .line-dec{
+        width: 30px;
+        height: 4px;
+        background-color: var(--quaternary-color);
+    }
+    .banner .caption p {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+
+    /* Sub-menu Paginas extras */
+    #titulo-page {
+        color: var(--octonary-color);
+        border-top: 1px solid var(--octonary-color);
+        border-bottom: 1px solid var(--octonary-color);
+    }
+    
+    #titulo-page h1 {
+        font-size: 5rem !important;
+        font-weight: 600;
+        padding: 2rem;
+        margin: 0;
+    }
+
+    .titulo-imagem-p {
+        font-size: 1.5rem !important; 
+        margin: 5rem 0 0 0;
+        background-color: #b2a574;
+        font-weight: bold;
+    }
+
+    .drop_color li {
+        background-color: #605d51;
+        margin: 1rem 0;
+        border-top: 1px solid var(--primary-color);
+        border-bottom: 1px solid var(--primary-color);
+    }
+
+    .drop_color li:hover {
+        background-color: var(--quaternary-color);
+    }
+
+    .bt_drop button:after {
+        content: ' \025BC';
+        font-size: 1.5rem;
+    }
+
+    .show-image-button {
+        background: #545454;
+        border: none;
+        color: #f3f3f3;
+        padding: 0.5rem 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .show-image-button:after {
+        content: ' \025BC';
+        font-size: 1.5rem;
+    }
+    
+
+    /* BreadCombs */
+    ol {
+        list-style-type: square;
+    }
+
+    article nav {
+        display: block;
+        background-color: transparent;
+    }
+
+    article nav ol li {
+        padding: 2rem;
+        margin-left: 3rem;
+        color: var(--senary-color);
+    }
+
+    article nav ol {
+        display: flex;
+        padding-left: 1.5rem;
+        justify-content: start;
+    }
+
+    article nav ol li {
+        padding: 2rem;
+        margin-left: 3rem;
+        list-style-type: square;
+        color: var(--quinary-color);
+        font-size: 1.7rem;
+    }
+
+    article nav ol a {
+        color: var(--quinary-color);
+    }
+
+    article nav ol a:hover {
+        color: var(--quaternary-color) !important;
+    }
+
+    .atual {
+        color: var(--senary-color);
+    }
+
+    .atual-titulo {
+        color: var(--senary-color);
+    }
+
+    .info a {
+        font-size: 1.5rem;
+        background-color: var(--secondary-color);
+    }
+
+    .info a:hover {
+        background-color: var(--quaternary-color);
+        border: var(--quaternary-color);
+    }
+
+    /* Estilo Modal */
+    .modal-body p {
+        font-size: 2rem;
+    }
+
+    .modal-body h6 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .modal-content {
+        width: 50vw !important;
+        margin: 0 auto !important;
+    }
+
+    .modal-dialog {
+        max-width: none !important;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: var(--tertiary-color);
+        font-weight: 400;
+        font-size: 1.7rem;
+    }
+
+    nav a:hover {
+        color: var(--tertiary-color);
+    }
+
+    /* Navegação Lateral */
+    .nav-lateral {
+        display: block;
+        background-color: transparent;
+    }
+
+    .nav-lateral nav ul {
+        display: block;
+        padding: 0;
+    }
+
+    .nav-lateral nav ul #base-color, .nav-lateral .bt_drop #base-color {
+        background-color: var(--secondary-color);
+        font-size: 2rem;
+    }
+
+    .nav-lateral nav ul li:hover {
+        background-color: var(--quaternary-color);
+    }
+
+    .nav-lateral h2 {
+        color: var(--senary-color);
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .nav-lateral .bt_drop button {
+        background: transparent;
+        border: none;
+        color: var(--tertiary-color);
+    }
+
+    .main-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-content h2 {
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .titulo h2 {
+        font-size: 4rem !important;
+    }
+
+    .main-content h3 {
+        font-size: 3.5rem;
+        text-align: start;
+        margin-bottom: 2rem;
+    }
+
+    .main-content h4 {
+        line-height: 2rem;
+        margin: 5rem 0 3rem 0;
+        font-size: 2.5rem;
+        text-align: start;
+    }
+
+    .main-content p {
+        font-size: 2rem;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    .portifolio {
+        background-color: #979797;
+        text-align: center;
+    }
+
+    .portifolio img {
+        max-height: 100vh;
+        width: auto;
+        object-fit: contain;
+    }
+
+    footer {
+        background-color: var(--secondary-color);
+        font-size: 15px;
+        color: white;
+        padding: 3rem 3rem 2rem;
+        align-content: center;
+        text-align: center;
+    }
+
+    footer p {
+        padding-bottom: 1rem;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: var(--senary-color);
+    }
+
+    a:hover {
+        color: var(--tertiary-color) !important;
+    }
+
+    .central {
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .central h3 {
+        color: var(--senary-color);
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .central p {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 3rem 0 0;
+    }
+
+    .construcao h1 {
+        font-size: 3rem;
+        margin: auto;
+    }
+
+    .construcao {
+        margin: auto;
+        display: grid;
+        margin-top: 8rem;
+    }
+
+    .construcao img {
+        width: 20rem;
+        margin: auto;
+    }
+
+    .imagem-lado {
+        display: flex;
+    }
+
+    .imagem-lado img {
+        padding: 2rem;
+    }
+
+    .p-borda p {
+        padding: 2rem;
+    }
+
+    .img-dupla-lado {
+        width: 100%;
+        margin: auto;
+        padding: 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .img-dupla-lado img, .img-dupla-lado p {
+        width: 50%;
+        padding: 1rem;
+    }
+
+    .sub-item-p {
+        margin-left: 3rem;
+    }
+
+    .not-mobile-only {
+        display: block;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+
+    .animal-image {
+        margin-bottom: 3rem;
+    }
+
+    .conteudo-sensivel {
+        width: 100%;
+        font-family: 'Pridi', serif !important;    
+        background-color: var(--senary-color) !important;
+        color: var(--secondary-color);
+        font-size: 2rem;
+        padding: 1rem;
+        font-weight: bold;
+        border: none;
+    }
+
+    .alerta-conteudo, .alerta-conteudo p, .alerta-conteudo h5 {
+        width: 100%;
+        font-family: 'Pridi', serif !important;    
+        background-color: #95000f !important;
+        color: var(--primary-color);
+        font-size: 2rem;
+        border: none;
+        text-align: center !important;
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    /* Calculadora */
+
+    #CalculadoraPelagem {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 1.7rem;
+        padding-top: 4rem;
+        --select-border: #777;
+        --select-focus: blue;
+        --select-arrow: var(--select-border)
+    }
+    
+    #CalculadoraPelagem #ProgenitoresSection {
+        display: flex;
+        max-width: 100%
+    }
+    
+    #CalculadoraPelagem #MaeSection,#CalculadoraPelagem #PaiSection {
+        padding-right: 1em
+    }
+    
+    #CalculadoraPelagem #ProbabilidadesSection {
+        max-width: 50%;
+        justify-content: center
+    }
+    
+    @media (max-width: 1024px) {
+        #CalculadoraPelagem {
+            flex-direction:column
+        }
+    
+        #CalculadoraPelagem #ProgenitoresSection,#CalculadoraPelagem #ProbabilidadesSection {
+            max-width: 100%
+        }
+
+        .imagem-lado {
+            display: block;
+        }
+    
+        .imagem-lado div {
+            width: 100%;
+        }
+
+        .not-mobile-only {
+            display: none;
+        }
+    
+        .mobile-only {
+            display: block;
+        }
+    
+    }
+    
+    
+    #CalculadoraPelagem #MaeErrorSection,#PaiErrorSection {
+        color: #dc3545;
+        max-width: 30ch;
+        display: block;
+        text-align: justify;
+    }
+    
+    #CalculadoraPelagem *,#CalculadoraPelagem ::after,#CalculadoraPelagem ::before {
+        box-sizing: border-box
+    }
+    
+    #CalculadoraPelagem select {
+        border: 1px solid var(--select-border);
+        border-radius: .25em;
+        padding: .25em .5em;
+        margin: 0;
+        width: 100%;
+        min-width: 15ch;
+        max-width: 30ch;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: 1.1;
+        outline: 0;
+        cursor: pointer;
+        background-color: #fff;
+        background-image: linear-gradient(to top,#f9f9f9,#fff 33%)
+    }
+    
+    #CalculadoraPelagem select::-ms-expand {
+        display: none
+    }
+    
+    #CalculadoraPelagem .hccc-container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        padding-bottom: 20px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none
+    }
+    
+    #CalculadoraPelagem .hccc-container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer
+    }
+    
+    #CalculadoraPelagem .hccc-checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+        border-radius: 30%
+    }
+    
+    #CalculadoraPelagem .hccc-container:hover input~.hccc-checkmark {
+        background-color: #ccc
+    }
+    
+    #CalculadoraPelagem .hccc-container input:checked~.hccc-checkmark {
+        background-color: #e0aa11
+    }
+    
+    #CalculadoraPelagem .hccc-checkmark:after {
+        content: "";
+        position: absolute;
+        display: none
+    }
+    
+    #CalculadoraPelagem .hccc-container input:checked~.hccc-checkmark:after {
+        display: block
+    }
+    
+    #CalculadoraPelagem .hccc-container .hccc-checkmark:after {
+        top: 9px;
+        left: 9px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: 0 0
+    }
+    
+    #CalculadoraPelagem .hccc-collapsible {
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: 0;
+        background: 0 0;
+        padding: 0;
+        font-size: 1.2em;
+        font-weight: 500
+    }
+    
+    #CalculadoraPelagem .hccc-content {
+        background-color: none;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .2s ease-out
+    }
+    
+    #CalculadoraPelagem .hccc-content p {
+        margin: 0
+    }
+    
+    #CalculadoraPelagem .hccc-collapsible:after {
+        content: ' \025B2'
+    }
+    
+    #CalculadoraPelagem .hccc-active:after {
+        content: ' \025BC'
+    }
+
+    .hidden {
+        display: none;
+    }
+    
+
+    /* Formulário */
+    .form-article {
+        border-top: 1.5px solid var(--octonary-color);
+        padding: 5rem 0 5rem;
+        margin-top: 5rem;
+        background-color: var(--tertiary-color);
+    }
+
+    .form {
+        padding: 2rem;
+    }
+
+    html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
+        min-width: 120px !important;
+        width: 30% !important;
+        text-align: center;
+        background-color: var(--senary-color);
+        border: 1px solid var(--senary-color);
+        font-size: 20px;
+        font-weight: normal;
+        font-family: 'Pridi', serif;;
+        border-radius: 10px;
+    }
+
+    html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button:hover {
+        background-color: var(--quaternary-color);
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        transition: all .5s ease;
+    }
+
+    html .cog-cognito--styled .cog-header h1, :root:root:root:root:root .cog-cognito--styled .cog-header h1 {
+        display: none;
+    }
+
+    html .cog-label, :root:root:root:root:root .cog-label {
+        font-weight: normal;
+        font-family: 'Pridi', serif;
+    }
+
+    html .cog-abuse, .cog-branding, .cog-branding--minimal {
+        visibility: hidden !important;
+        display: none !important;
+    }
+
+    html .cog-cognito *, html .cog-cognito ::before, html .cog-cognito ::after, :root:root:root:root:root .cog-cognito *, :root:root:root:root:root .cog-cognito ::before, :root:root:root:root:root .cog-cognito ::after {
+        width: 100% !important;
+    }
+
+    html .cog-page__navigation, :root:root:root:root:root .cog-page__navigation {
+        justify-content: center !important;
+    }
+
+    html .cog-form__container, :root:root:root:root:root .cog-form__container {
+        background-color: var(--tertiary-color) !important;
+    }
+
+    html .cog-row, :root:root:root:root:root .cog-row {
+        margin-left: 0 !important;
+    }
+
+    html .cog-cognito *, html .cog-cognito ::before, html .cog-cognito ::after, :root:root:root:root:root .cog-cognito *, :root:root:root:root:root .cog-cognito ::before, :root:root:root:root:root .cog-cognito ::after {
+        margin: 0 auto;
+    }
+
+    .button-cta {
+        text-align: center;
+        background-color: var(--senary-color);
+        font-size: 20px;
+        font-weight: normal;
+        font-family: 'Pridi', serif;;
+        color: white;
+        text-decoration: none;
+        padding:  0.8rem 1rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        display: block;
+        width: 50%;
+    }
+
+    .button-cta:hover {
+        background-color: var(--quaternary-color);
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        transition: all .5s ease;
+    }
+
+    .sobre-col-center {
+        margin: 0 auto;
+        padding-bottom: 2rem;
+        display: block;
+        text-align: center;
+        font-family: 'Pridi', serif;;
+        border-bottom: 1.5px dashed var(--octonary-color);
+    }
+
+    .sobre-col-center img {
+        width: 150px;
+    }
+
+    .sobre-col-center h4 {
+        font-size: 4rem;
+        color: var(--secondary-color);
+    }
+
+    .sobre-col-center p {
+        font-size: 2rem;
+        color: var(--secondary-color);
+        line-height: 5rem;
+    }
+
+    #saiba-mais {
+        margin: 4rem auto;
+        width: 15%;
+    }
+
+    .etapas-reproducao {
+        font-family: 'Pridi', serif;;
+        border-bottom: 1.5px dashed var(--octonary-color);
+    }
+
+    .etapas-reproducao h4 {
+        font-size: 4rem;
+        color: var(--secondary-color);
+    }
+
+    .etapa-col-center img {
+        width: 150px;
+        margin-right: 2rem;
+    }
+
+    .etapa-col-center {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .etapa-col-center h5 {
+        font-size: 3rem;
+        color: var(--senary-color);
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .etapa-col-center p {
+        text-align: justify;
+        width: 50%;
+        line-height: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .container-central {
+        margin: 4rem 0 9rem;
+    }
+
+    .banner-calculadora h3, .banner-calculadora p { 
+        color: var(--tertiary-color); 
+        margin: 0;
+    }
+
+    .banner-calculadora p {
+        text-align: justify;
+    }
+
+    .banner-calculadora h3 {
+        text-align: center;
+    }
+
+    .banner-calculadora img {
+        width: 20rem;
+    }
+
+    .banner-calculadora {
+        background-color: #2e2e2e; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .margin-x-5 {
+        padding: 0 3rem;
+    }
+
+    .isola-carrousel {
+        margin: 5rem auto;
+    }
+
+    .owl-nav {
+        font-size: 2rem;
+        background-color: #b2a574;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .owl-nav .owl-prev, .owl-nav .owl-next {
+        margin: 0 5rem;
+    }
+
+@media (max-width: 1440px) {
+    header h1 { 
+        width: 25%;
+        font-size: 2.5rem;
+    }
+    /* Menu Principal */
+    #main-menu ul li {
+        width: 10% !important;
+    }
+    #saiba-mais {
+        width: 20%;
+    }
+    .button-cta {
+        font-size: 2rem;
+    }
+    .sobre-col-center p {
+        font-size: 2rem;
+    }
+
+    .etapa-col-center p {
+        line-height: 2.8rem;
+        font-size: 2rem;
+    }
+
+    .etapa-col-center {
+        display: flex;
+        padding-bottom: 3rem;
+    }
+
+    .modal-content {
+        width: 60vw !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    header h1 { 
+        width: 32%;
+        font-size: 2.5rem;
+    }
+
+    #saiba-mais {
+        width: 25%;
+    }
+
+    .titulo h2 {
+        font-size: 3.5rem !important;
+    }
+
+    .main-content p {
+        font-size: 1.7rem;
+    }
+
+    .modal-content {
+        width: 70vw !important;
+    }
+
+    #ProgenitoresSection {
+        justify-content: center;
+    }
+
+    #CalculadoraPelagem #MaeSection,#CalculadoraPelagem #PaiSection {
+        padding-right: 0;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Menu Principal */
+    #main-menu {
+        display: flex;
+        background-color: var(--secondary-color);
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #main-menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    #main-menu ul li {
+        width: 100% !important;
+        border-top: 1px solid var(--primary-color);
+    }
+
+    .banner .caption p {
+        font-size: 1.6rem;
+    }
+
+    article nav ol {
+        justify-content: center;
+    }
+    
+    .pre-header {
+        display: none;
+    }
+
+    #saiba-mais {
+        width: 30%;
+    }
+
+    .main-content {
+        display: block;
+        text-align: center;
+    }
+
+    .main-content h2 {
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    } 
+
+    .main-content h3 {
+        font-size: 2.5rem;
+        text-align: start;
+        margin-bottom: 2rem;
+    }
+
+    .main-content h4 {
+        line-height: 2rem;
+        margin: 5rem 0 3rem 0;
+        font-size: 2rem;
+        text-align: start;
+    }
+
+    .main-content p {
+        font-size: 1.7rem;
+        line-height: 25px;
+        text-align: justify;
+    }    
+
+    .titulo h2 {
+        font-size: 3rem;
+    }
+
+    .nav-lateral nav ul li {
+        font-size: 1.7rem;
+    }
+
+    .nav-lateral {
+        width: auto;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .form-article p {
+        text-align: justify;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .form {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .banner {
+        padding: 180px 0px;
+    }  
+    
+    .button-cta {
+        text-align: center;
+        background-color: var(--senary-color);
+        border: 1px solid var(--senary-color);
+        font-size: 1.5rem;
+        font-weight: normal;
+        font-family: 'Pridi', serif;;
+        color: var(--tertiary-color);
+        text-decoration: none;
+        padding:  0.8rem 1rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        display: block;
+        width: 60%;
+    }
+
+    .sobre-col-center h4 {
+        font-size: 3rem;
+    }
+    
+    .sobre-col-center p {
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+
+    .sobre-col-center img {
+        width: 130px;
+    }
+    
+    .etapas-reproducao h4 {
+        font-size: 3rem;
+    }
+
+    .etapa-col-center {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 0 3rem;
+        justify-content: space-evenly;
+    }
+
+    .etapa-col-center img {
+        width: 60%;
+        margin: 0;
+    }
+
+    .etapa-col-center h5 {
+        width: 70%;
+        font-size: 2.5rem;
+        margin: 0 0 3rem;
+    }
+
+    .etapa-col-center p {
+        width: 100%;
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+
+    .banner-calculadora h3, .banner-calculadora p {
+        margin: auto;
+        width: 100% !important;
+    }
+
+    .banner-calculadora h3 {
+        text-align: center;
+    }
+
+    .banner-calculadora p {
+        padding: 3rem 0;
+    }
+
+    .banner-calculadora {
+        display: block;
+        padding: 0;
+    }
+
+    /* Formulário */
+    html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
+        margin: 0 auto;
+    }
+
+    .cog-button__text {
+        font-size: 1.5rem !important;
+    }
+
+    html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
+        width: 50% !important;
+    }
+
+    /*Logomarcas Claro e Escuro */
+    #desktop {
+        display: none;
+    }
+
+    #mobile {
+        display: block;
+        margin: 1rem 2rem;
+        width: 30%;
+    }
+
+    /* Menu Dropdown */
+    #dropdown {
+        display: block;
+        font-size: 4rem;
+        padding: 2rem;
+        width: 100%;
+        color: var(--tertiary-color);
+    }
+    
+    #bt_menu:checked ~ .dropdown-item {
+        display: block !important;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #main-menu .dropdown-item{
+        display: none !important;
+    }
+
+    #bt_menu:checked ~ #mobile {
+        display: none !important;
+    }
+
+    /* Responsividade Pontas */
+    header {
+        display: none;
+    }    
+
+    header img {
+        display: none;
+    }
+
+    header h1 {
+        width: auto;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    .modal-content {
+        width: 80vw !important;
+    }
+
+}
+
+
+
+@media (max-width: 426px) {
+
+    blockquote {
+        margin: 5rem 0 5rem 0% !important;
+      }
+
+    table {
+        font-size: inherit;
+    }
+
+    /* Banner Celular */
+    .banner {
+        background-image: url(../img/Fotos/hotshot-vertical-01.JPG);
+        padding: 130px 0px;
+    }
+
+    .banner .caption {
+        margin-top: 30rem;
+    }
+
+    /*Logomarca Celular*/
+    #mobile {
+        width: 50%;
+    }
+
+    .marcador a {
+        font-size: 1.5rem;
+    }
+
+    .atual {
+        font-size: 1.5rem;
+    }
+
+    article nav ol li {
+        padding: 1rem 1rem 1rem 0;
+        margin-left: 2rem;
+        list-style-type: square;
+        color: var(--quinary-color);
+        font-size: 1.5rem;
+    }
+
+    .etapa-col-center p {
+        text-align: center;
+    }
+
+    #saiba-mais {
+        width: 50%;
+    }
+
+    .esconde-mobile {
+        display: none;
+    }
+
+    .mostra-mobile {
+        display: flex;
+    }
+
+    /* Formulário */
+    html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
+        width: 95% !important;
+    }
+
+    .modal-content {
+        width: 90vw !important;
+    }
+
+    #CalculadoraPelagem #ProgenitoresSection {
+        display: block !important;
+        padding: 0px 3.5rem;
+    }
+
+    .banner-calculadora {
+        display: block;
+        padding: 3rem 0;
+    }
+    
+    .banner-calculadora img {
+        margin: auto;
+    }
+
+    .banner-calculadora div {
+        margin: auto;
+    }
+
+    .imagem-lado {
+        display: block;
+    }
+
+    .owl-nav {
+        display: none;
+    }
+
+    .img-dupla-lado {
+        display: block;
+    }
+
+    .img-dupla-lado img, .img-dupla-lado p {
+        width: 100%;
+    }
+}
